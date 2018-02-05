@@ -15,6 +15,7 @@ almost black: #121212
 
 Font: Open Sans (Google Font: https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans)
 Weight: Light, Light Italic, Semibold, Extrabold
+300,300i,600,800
 
 "Relaxr" - Extra bold, 24px
 "Get piece of mind with a single tap" - Semibold, 24px

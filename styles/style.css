@@ -1,7 +1,7 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Project Name: Relaxr Landing Page
+Client: Relaxr
+Author: Nicole Boettcher
 Developer @GA in NYC
 */
 
@@ -49,9 +49,8 @@ body {
   color: #000;
   font-size: 12px;
   line-height: 1.4;
-  font-family: Helvetica, Arial, sans-serif;
-  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-   background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
 }
 
 
@@ -61,23 +60,124 @@ body {
 
 /* Center the container */
 #container {
-width: 100%;
-margin: auto;
-height: 500px;
-
+  width: 100%;
+  margin: auto;
+  height: 500px;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
 }
 
 header {
+  text-align: left;
+  padding: 40px;
+}
 
+#section-benefits {
+  background-color: #f0efef;
+  text-align: left;
+}
+
+#testimonials {
+  background-image: url(../images/testimonial_bg.jpg);
+  background-size: cover;
+}
+
+#CTA {
+  background-color: #f9e42e;
+  padding: 20px;
 }
 
 footer {
+  background-color: #121212;
+  padding: 40px;
+}
 
+.social-row {
+  display: inline-block;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+h1 {
+  font-weight: 800;
+  color: white;
+  font-size: 24px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 24px;
+  color: white;
+}
+
+button.get-relaxr {
+  font-weight: 800;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: #f9e42e;
+  color: #121212;
+  padding: 10px;
+  border: none;
+}
+
+h3 {
+  font-weight: 600px;
+  font-size: 20px;
+}
+
+p {
+  font-weight: 300;
+  font-size: 13px;
+}
+
+#section-benefits div {
+  padding: 40px;
+}
+
+#testimonials div {
+  padding: 0 37%;
+  color: white;
+}
+
+.quote {
+  padding-top: 40px;
+  font-weight: 300i;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.quoted {
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+
+#CTA button {
+  font-weight: 800;
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #033048;
+  padding: 10px;
+  color: white;
+}
+
+footer h1 {
+  color: #f9e42e;
+}
+
+.socialitem {
+  margin: 30px 20px;
+  height: 20px;
+}
+
+footer p {
+  color: white;
+  font-weight: 600;
+  font-size: 9px;
+  padding: 10px 0 40px 0;
+}
 
 
